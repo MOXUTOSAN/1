@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+
+.header{
+    padding: 17px 0;
+    font-family: Lato;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu{
+    display: flex;
+}
+
+.header__link{
+    color: #292929;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header__item{
+    margin-right: 70px;
+}
+
+
+.btn{
+    color: #fff;
+    font-weight: 400;
+    font-style: 20px;
+    background-color: #019960;
+    padding: 13px;
+    border-radius: 4px;
+    border: none;
+}
+.btn_white{
+    color: #000;
+    background-color: #fff;
+    width: 183px;
+    font-size: 20px;
+}
+
+/*main*/
+
+.main{
+    background: url('../radu-florin-CwTBt6jyagQ-unsplash\ 1.svg') no-repeat center center / cover;
+    height: 90vh;
+    padding-top: 170px;
+}
+
+.main__info{
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main__title{
+    color: #019960;
+    font-style: 85px;
+    font-weight: 900;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.main__text{
+    color: #484848;
+    font-weight: 450;
+    font-style: 20px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.main__btn{
+    background-color:#019960;
+    width: 227px;
+}
